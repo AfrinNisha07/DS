@@ -1,4 +1,4 @@
-public class removeZeroes {
+public class moveZeroes {
     public static void main(String[] args) {
         int arr[]={0,5,3,0,52};
         int a=arr.length;
