@@ -1,6 +1,6 @@
 public class SortZeroes {
     public static void main(String[] args) {
-        int arr[]={0,0,1,0,1,1,0};
+        int arr[]={0,0,1,0,1,1,2,1,2,1,2,0};
         int a=arr.length;
         for (int i = 1; i < a; i++) {
             int j=i;
@@ -10,7 +10,6 @@ public class SortZeroes {
                 arr[j-1]=temp;
                 j--;
             }
-
         }
         for (int num:arr){
             System.out.print(num+" ");
